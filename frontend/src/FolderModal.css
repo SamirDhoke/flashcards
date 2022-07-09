@@ -1,0 +1,62 @@
+.folder-modal-wrapper {
+	position: fixed;
+
+	height: 100%;
+	width: 100%;
+
+	top: 0;
+	left: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.folder-modal {
+	border: 1px;
+	background-color: white;
+	color: #323232;
+
+	padding: 20px;
+	max-width: 320px;
+}
+
+.row {
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.row:nth-child(1) {
+	justify-content: space-between;
+}
+
+.folder-modal .icon {
+	margin: 0 !important;
+	cursor: pointer;
+}
+
+.row:nth-child(3) {
+	justify-content: center;
+}
+
+.form-control {
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.form-control label {
+	font-size: small;
+	margin-right: 5px;
+}
+
+.action-btn {
+	margin: 0 5px;
+}
+
+.action-btn > * {
+	margin: 0 2px;
+}

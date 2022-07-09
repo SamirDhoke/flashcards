@@ -1,0 +1,60 @@
+{
+	"categories": [
+		{
+			"id": 1,
+			"name": "computer science",
+			"description": "loremLorem ipsum nisi nulla esse in non exercitation in anim dolore nisi mollit amet do nostrud excepteur in pariatur culpa cupidatat reprehenderit ut pariatur velit dolor in dolor mollit laborum in reprehenderit.",
+			"notes": [1, 3]
+		},
+		{
+			"id": 2,
+			"name": "mathematics",
+			"description": "loremLorem ipsum nisi nulla esse in non exercitation in anim dolore nisi mollit amet do nostrud excepteur in pariatur culpa cupidatat reprehenderit ut pariatur velit dolor in dolor mollit laborum in reprehenderit.",
+			"notes": [2]
+		}
+	],
+	"notes": [
+		{
+			"id": 1,
+			"createdOn": 1656849993936,
+			"modifiedOn": 1656849993936,
+			"lastSeen": 1656849993936,
+			"question": "Lorem ipsum dolore elit velit reprehenderit mollit nostrud eu est aliqua consectetur.",
+			"answer": "Quis ad eu fugiat non et nostrud proident pariatur deserunt pariatur esse elit dolore eu magna elit eiusmod do cillum minim minim laboris culpa et pariatur nostrud tempor aliqua.",
+			"isStarred": false,
+			"category": 1,
+			"categoryName": "computer science",
+			"tags": [
+				"cs", "programming", "javascript"
+			]
+		},
+		{
+			"id": 2,
+			"createdOn": 1656849993936,
+			"modifiedOn": 1656849993936,
+			"lastSeen": 1656849993936,
+			"question": "Lorem ipsum dolore elit velit reprehenderit mollit nostrud eu est aliqua consectetur.",
+			"answer": "Quis ad eu fugiat non et nostrud proident pariatur deserunt pariatur esse elit dolore eu magna elit eiusmod do cillum minim minim laboris culpa et pariatur nostrud tempor aliqua.",
+			"isStarred": false,
+			"category": 2,
+			"categoryName": "mathematics",
+			"tags": [
+				"maths", "calculus"
+			]
+		},
+		{
+			"id": 3,
+			"createdOn": 1656849993936,
+			"modifiedOn": 1656849993936,
+			"lastSeen": 1656849993936,
+			"question": "Lorem ipsum dolore elit velit reprehenderit mollit nostrud eu est aliqua consectetur.",
+			"answer": "Quis ad eu fugiat non et nostrud proident pariatur deserunt pariatur esse elit dolore eu magna elit eiusmod do cillum minim minim laboris culpa et pariatur nostrud tempor aliqua.",
+			"isStarred": false,
+			"category": 1,
+			"categoryName": "computer science",
+			"tags": [
+				"cs", "programming", "javascript"
+			]
+		}
+	]
+}

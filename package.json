@@ -1,0 +1,17 @@
+{
+  "name": "flashcards_fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "back": "cd backend && npm start",
+    "front": "cd frontend && npm start",
+    "build:front": "cd frontend && rm -rf dist && npm run build",
+    "build:move": "rm -rf backend/dist && cp -r frontend/dist/ backend",
+    "build:full": "npm run build:front && npm run build:move"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
