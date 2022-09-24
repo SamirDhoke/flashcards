@@ -1,0 +1,93 @@
+.file-modal-wrapper {
+	position: fixed;
+
+	height: 100%;
+	width: 100%;
+
+	top: 0;
+	left: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.file-modal {
+	border: 1px;
+	background-color: white;
+	color: #323232;
+
+	padding: 20px;
+	max-width: 320px;
+}
+
+.row {
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.row:nth-child(1) {
+	justify-content: space-between;
+}
+
+.file-modal .icon {
+	margin: 0 !important;
+	cursor: pointer;
+}
+
+.row:nth-child(3) {
+	justify-content: center;
+}
+
+.form-control {
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+form {
+	width: 100%;
+}
+
+.form-control input {
+	flex-basis: 80%;
+	width: 100%;
+}
+
+.form-control label {
+	flex-basis: 20%;
+	font-size: small;
+	margin-right: 5px;
+}
+
+.action-btn {
+	margin: 0 5px;
+}
+
+.action-btn > * {
+	margin: 0 2px;
+}
+
+.err-msg {
+	display: flex;
+	align-items: center;
+
+	padding: 10px;
+	background-color: hsl(0, 79%, 56%);
+	color: #f4f4f4;
+
+	margin-bottom: 0;
+
+	border-radius: 24px;
+}
+
+.err-msg .err-icon {
+	margin-right: 10px;
+}
+
+.err-msg .text {
+	font-size: small;
+}
